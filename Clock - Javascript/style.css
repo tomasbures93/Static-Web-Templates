@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Teko:wght@500&family=Ubuntu+Mono:wght@700&display=swap');
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 3rem;
+    width: 100vh;
+    height: 100vh;
+    text-align: center;
+    background-color: rgba(202, 202, 202,.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body.dark {
+    background-color: rgb(53, 53, 53);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(207, 207, 207, .8);
+    padding: 4rem 6rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.dark section{
+    background-color: rgb(23, 23, 23);
+} 
+
+.switch {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    display: flex;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(240, 240, 240,.5);
+}
+
+.name {
+    position: absolute;
+    font-size: 5rem;
+    top: -80px;
+    background-color: rgb(240, 240, 240);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+.dark .name {
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.between {
+    display: block;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.dark .between {
+    color: white;
+}
+.dark .switch {
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.item {
+    background-color:rgba(240, 240, 240, .7);
+    padding: 1.5rem 3rem;
+    border-radius: 10px;
+}
+
+.dark .item {
+    background-color:rgb(15, 15, 15); 
+    color: white;
+}
+
+.text {
+    font-size: 2rem;
+}
